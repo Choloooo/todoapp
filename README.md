@@ -1,16 +1,25 @@
 # todoapp
-a simple to do app with django as backend and nextjs as frontend
-Project Setup Instructions
+
+**a simple to do app with django as backend and nextjs as frontend**
+
+
+**Project Setup Instructions**
 This project utilizes both Django and Next.js frameworks. Follow the steps below to set up the project after cloning or pulling it from the repository:
 
-Install Django Dependencies:
+**Install Django Dependencies:**
 
 Navigate to the project directory (todoapp).
-create a virtual environment, activate it.
-Run the following command to install Python dependencies:
-
-
 cd todoapp  #to change directory to the project directory
+
+create a virtual environment, activate it.
+python -m venv venv # create
+venv\Scripts\activate # windows
+source venv/bin/activate #macos
+
+
+
+
+Run the following command to install Python dependencies:
 pip install -r requirements.txt
 
 
